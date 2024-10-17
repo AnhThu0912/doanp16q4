@@ -1,4 +1,4 @@
-/* .owl-carousel {
+.owl-carousel {
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
@@ -177,43 +177,4 @@
   z-index: 1;
   height: 100%;
   width: 100%;
-} */
-.owl-carousel .item {
-  background: #4a90e2;
-  padding: 30px 0;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-}
-
-.owl-nav {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.owl-nav button {
-  background: transparent;
-  border: none;
-  color: #4a90e2;
-  font-size: 24px;
-}
-
-.owl-dots {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.owl-dot {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: #ddd;
-  border-radius: 50%;
-  margin: 5px;
-}
-.owl-dot.active {
-  background: #4a90e2;
 }
