@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Thư viện thông minh</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+      rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link
+      href="lib/owlcarousel/assets/owl.theme.default.css"
+      rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/doan.css" rel="stylesheet" />
+
+    <!-- favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar start -->
+    <div
+      class="container-fluid border-bottom bg-light wow fadeIn"
+      data-wow-delay="0.1s">
+      <div
+        class="container topbar bg-primary d-none d-lg-block py-2"
+        style="border-radius: 0 40px">
+        <div class="d-flex justify-content-between">
+          <div class="top-info ps-2">
+            <small class="me-3"
+              ><i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+              <a href="#" class="text-white text-capitalize"
+                >181/19 xóm chiếu, phường 16, quận 4</a
+              ></small
+            >
+            <small class="me-3"
+              ><i class="fas fa-envelope me-2 text-secondary"></i
+              ><a href="#" class="text-white"
+                >doanthanhnienp16.q42603@gmail.com</a
+              ></small
+            >
+          </div>
+          <div class="top-link pe-2">
+            <a
+              href="https://www.facebook.com/DoanHoiPhuong16"
+              class="btn btn-light btn-sm-square rounded-circle"
+              ><i class="fab fa-facebook-f text-secondary"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container px-0">
+        <nav class="navbar navbar-light navbar-expand-xl py-0">
+          <a href="index.html" class="navbar-brand text-center">
+            <img src="./img/logo/logo-doan.png" alt="" width="60" />
+            <img src="./img/logo/logo-hoi.png" alt="" width="60" />
+            <span
+              class="text-secondary text-capitalize row text-center"
+              style="font-weight: 600; font-size: 16px"
+              >phường 16 quận 4</span
+            >
+          </a>
+          <button
+            class="navbar-toggler py-2 px-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars text-primary"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto">
+              <a
+                href="index.html"
+                class="nav-item nav-link active text-capitalize"
+                >trang chủ</a
+              >
+              <a href="program.html" class="nav-item nav-link text-capitalize"
+                >giới thiệu</a
+              >
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle text-capitalize"
+                  data-bs-toggle="dropdown"
+                  >tổ chức</a
+                >
+                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                  <a href="doan.html" class="dropdown-item text-capitalize"
+                    >đoàn thanh niên cộng sản hồ chí minh</a
+                  >
+                  <a href="team.html" class="dropdown-item text-capitalize"
+                    >hội liên hiệp thanh niên việt nam</a
+                  >
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle text-capitalize"
+                  data-bs-toggle="dropdown"
+                  >giáo dục</a
+                >
+                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                  <a href="doan.html" class="dropdown-item text-capitalize"
+                    >không gian văn hoá hồ chí minh</a
+                  >
+                  <a href="team.html" class="dropdown-item text-capitalize"
+                    >sinh hoạt chính trị</a
+                  >
+                </div>
+              </div>
+              <a href="program.html" class="nav-item nav-link text-capitalize"
+                >thư viện</a
+              >
+
+              <a href="program.html" class="nav-item nav-link text-capitalize"
+                >sao bắc đẩu quận 4</a
+              >
+              <a href="event.html" class="nav-item nav-link text-capitalize"
+                >tìm địa chỉ</a
+              >
+            </div>
+            <div class="d-flex me-4">
+              <img src="./img/logo/toiyeutoquoctoi.png" alt="" width="220" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div
+      class="container-fluid page-header py-5 wow fadeIn"
+      data-wow-delay="0.1s">
+      <div class="container text-center py-5">
+        <h1 class="display-2 text-white mb-4 text-capitalize">
+          thư viện thông minh
+        </h1>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!--  slide sach start -->
+    <div class="container-fluid testimonial py-5">
+      <div class="container py-5">
+        <div
+          class="mx-auto text-center wow fadeIn"
+          data-wow-delay="0.1s"
+          style="max-width: 700px">
+          <h4
+            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+            Thư viện thông minh
+          </h4>
+        </div>
+        <!-- sách kỹ năng -->
+        <h4 class="mb-5 display-5 text-center">Sách kỹ năng</h4>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeIn"
+          data-wow-delay="0.3s">
+          <a
+            href="/books/sach-ky-nang/7 thói quen để thành đạt.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/7-thoi-quen.png"
+                alt="" />
+              <h5 class="m-3 text-center">7 thói quen để thành đạt</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/17 Nguyên Tắc Vàng Trong Làm Việc Nhóm.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/17-nguyen-tac-vang.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                17 Nguyên Tắc Vàng Trong Làm Việc Nhóm
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Ai lấy miếng phô mát của tôi.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/ai-lay-mieng.png"
+                alt="" />
+              <h5 class="m-3 text-center">Ai lấy miếng phô mát của tôi</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Bill Gates đã nói.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/bill-gate-da-noi.png"
+                alt="" />
+              <h5 class="m-3 text-center">Bill Gates đã nói</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Bí mật tư duy triệu phú.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/bi-mat-tu-duy.png"
+                alt="" />
+              <h5 class="m-3 text-center">Bí mật tư duy triệu phú</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Bí Quyết Tay Trắng Thành Triệu Phú.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/bi-quyet-tay-trang.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Bí Quyết Tay Trắng Thành Triệu Phú
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Cẩm nang an toàn trực tuyến.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/cam-nang-an-toan.png"
+                alt="" />
+              <h5 class="m-3 text-center">Cẩm nang an toàn trực tuyến</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Công Thức Tuyệt Mật.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/cong-thuc-tuyet-mat.png"
+                alt="" />
+              <h5 class="m-3 text-center">Công Thức Tuyệt Mật</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Dám nghĩ lớn.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/dam-nghi-lon.png"
+                alt="" />
+              <h5 class="m-3 text-center">Dám nghĩ lớn</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Dạy con làm giàu tập 1.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/day-con-lam-giau-1.png"
+                alt="" />
+              <h5 class="m-3 text-center">Dạy con làm giàu tập 1</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Dạy con làm giàu tập 2.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/day-con-lam-giau-2.png"
+                alt="" />
+              <h5 class="m-3 text-center">Dạy con làm giàu tập 2</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Dinh dưỡng chìa khoá vàng cho sức khoẻ.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/dinh-duong.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Dinh dưỡng chìa khoá vàng cho sức khoẻ
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Hẹn bạn trên đỉnh thành công.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/hen-ban.png"
+                alt="" />
+              <h5 class="m-3 text-center">Hẹn bạn trên đỉnh thành công</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Làm chủ tư duy thay đổi vận mệnh.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/lam-chu-tu-duy.png"
+                alt="" />
+              <h5 class="m-3 text-center">Làm chủ tư duy thay đổi vận mệnh</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Nhà Giả Kim.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/nha-gia-kim.png"
+                alt="" />
+              <h5 class="m-3 text-center">Nhà Giả Kim</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Phương pháp Quản lý Tiền bạc Hiệu quả - Akira Le.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/pp-quan-ly-tien-bac.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Phương pháp Quản lý Tiền bạc Hiệu quả
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Tham Vọng Lớn Lao Và Quá Trình Hình Thành Đế Chế Microsoft.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/bill-gates-tham-vong.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Tham Vọng Lớn Lao Và Quá Trình Hình Thành Đế Chế Microsoft
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Thay thói quen đổi cuộc đời.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/thay-doi-thoi-quen.png"
+                alt="" />
+              <h5 class="m-3 text-center">Thay thói quen đổi cuộc đời</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Think And Grow Rich.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/nghi-giau-va-lam-giau.png"
+                alt="" />
+              <h5 class="m-3 text-center">Think And Grow Rich</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Thuật Quản Lý Thời Gian.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/thuat-quan-ly-thoi-gian.png"
+                alt="" />
+              <h5 class="m-3 text-center">Thuật Quản Lý Thời Gian</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ky-nang/Tư duy tích cực tạo thành công.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/tu-duy-tich-cuc.png"
+                alt="" />
+              <h5 class="m-3 text-center">Tư duy tích cực tạo thành công</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Tỷ Phú Bán Giày.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/ty-phu-ban-giay.png"
+                alt="" />
+              <h5 class="m-3 text-center">Tỷ Phú Bán Giày</h5>
+            </div>
+          </a>
+          <a href="/books/sach-ky-nang/Đắc Nhân Tâm.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ky-nang/dac-nhan-tam.png"
+                alt="" />
+              <h5 class="m-3 text-center">Đắc Nhân Tâm</h5>
+            </div>
+          </a>
+        </div>
+        <!-- sách về Bác -->
+        <h4 class="mb-5 display-5 text-center mt-5">Sách về Bác</h4>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeIn"
+          data-wow-delay="0.3s">
+          <a href="/books/sach-ve-Bac/117 chuyện kể về Bác.pdf" target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ve-Bac/117 chuyện kể về Bác.jpg"
+                alt="" />
+              <h5 class="m-3 text-center">117 chuyện kể về Bác</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ve-Bac/Bác Hồ - những câu chuyện và bài học .pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ve-Bac/Bac-Ho-bai-hoc.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Bác Hồ - những câu chuyện và bài học
+              </h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-ve-Bac/Những câu chuyện về tấm gương đạo đức Hồ Chí Minh.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-ve-Bac/nhung-mau-chuyen-dao-duc.png"
+                alt="" />
+              <h5 class="m-3 text-center">
+                Những câu chuyện về tấm gương đạo đức Hồ Chí Minh
+              </h5>
+            </div>
+          </a>
+        </div>
+        <!-- sách tiếng Anh -->
+        <h4 class="mb-5 display-5 text-center mt-5">Sách tiếng Anh</h4>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeIn"
+          data-wow-delay="0.3s">
+          <a
+            href="/books/sach-tieng-anh/100 cấu trúc tiếng Anh.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-tieng-anh/100-phrases.png"
+                alt="" />
+              <h5 class="m-3 text-center">/100 cấu trúc tiếng Anh</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-tieng-anh/100 cấu trúc tiếng Anh phần 2.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-tieng-anh/100-cau-truc.png"
+                alt="" />
+              <h5 class="m-3 text-center">100 cấu trúc tiếng Anh phần 2</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-tieng-anh/Cẩm nang tiếng anh về Đoàn.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-tieng-anh/cam-nang-tu-vung.png"
+                alt="" />
+              <h5 class="m-3 text-center">Cẩm nang tiếng anh về Đoàn</h5>
+            </div>
+          </a>
+          <a
+            href="/books/sach-tieng-anh/Sơ đồ tư duy tiếng Anh.pdf"
+            target="_blank">
+            <div
+              class="testimonial-item bg-light border border-primary book-shadow">
+              <img
+                class="p-4"
+                src="img/trang-bia-sach/sach-tieng-anh/so-do-tu-duy.png"
+                alt="" />
+              <h5 class="m-3 text-center">Sơ đồ tư duy tiếng Anh</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- slide sach End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="footer-item">
+              <h2 class="fw-bold mb-3">
+                <span class="text-primary mb-0">Baby</span
+                ><span class="text-secondary">Care</span>
+              </h2>
+              <p class="mb-4">
+                There cursus massa at urnaaculis estieSed aliquamellus vitae
+                ultrs condmentum leo massamollis its estiegittis miristum.
+              </p>
+              <div class="border border-primary p-3 rounded bg-light">
+                <h5 class="mb-3">Newsletter</h5>
+                <div
+                  class="position-relative mx-auto border border-primary rounded"
+                  style="max-width: 400px">
+                  <input
+                    class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                    type="text"
+                    placeholder="Your email" />
+                  <button
+                    type="button"
+                    class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 text-white">
+                    SignUp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="footer-item">
+              <div
+                class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                style="border-radius: 50% 20% / 10% 40%">
+                <p>Monday: 8am to 5pm</p>
+                <p>Tuesday: 8am to 5pm</p>
+                <p>Wednes: 8am to 5pm</p>
+                <p>Thursday: 8am to 5pm</p>
+                <p>Friday: 8am to 5pm</p>
+                <p>Saturday: 8am to 5pm</p>
+                <p class="mb-0">Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="footer-item">
+              <h4
+                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                LOCATION
+              </h4>
+              <div class="d-flex flex-column align-items-start">
+                <a href="" class="text-body mb-4"
+                  ><i class="fa fa-map-marker-alt text-primary me-2"></i> 104
+                  North tower New York, USA</a
+                >
+                <a href="" class="text-start rounded-0 text-body mb-4"
+                  ><i class="fa fa-phone-alt text-primary me-2"></i> (+012) 3456
+                  7890 123</a
+                >
+                <a href="" class="text-start rounded-0 text-body mb-4"
+                  ><i class="fas fa-envelope text-primary me-2"></i>
+                  exampleemail@gmail.com</a
+                >
+                <a href="" class="text-start rounded-0 text-body mb-4"
+                  ><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours
+                  Service</a
+                >
+                <div class="footer-icon d-flex">
+                  <a
+                    class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"
+                    href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a
+                    class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"
+                    href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-sm-square me-3 rounded-circle text-white"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="btn btn-primary btn-sm-square rounded-circle text-white"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="footer-item">
+              <h4
+                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">
+                OUR GALLARY
+              </h4>
+              <div class="row g-3">
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-1.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-2.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-3.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-4.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-5.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div
+                    class="footer-galary-img rounded-circle border border-primary">
+                    <img
+                      src="img/galary-6.jpg"
+                      class="img-fluid rounded-circle p-2"
+                      alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <span class="text-light"
+              ><a href="#"
+                ><i class="fas fa-copyright text-light me-2"></i>Your Site
+                Name</a
+              >, All right reserved.</span
+            >
+          </div>
+          <div class="col-md-6 my-auto text-center text-md-end text-white">
+            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+            Distributed By
+            <a clas="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

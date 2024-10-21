@@ -121,7 +121,7 @@ a:hover img {
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 5px;
-  font-size: 14px;
+  font-size: 1rem;
   text-align: center;
   width: 100%;
 }
