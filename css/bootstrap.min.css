@@ -19,7 +19,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #ff4880;
-  --bs-secondary: #4d65f9;
+  --bs-secondary: #151aa5;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -2640,8 +2640,8 @@ fieldset:disabled .btn {
 }
 .btn-secondary {
   color: #fff;
-  background-color: #4d65f9;
-  border-color: #4d65f9;
+  background-color: #151aa5;
+  border-color: #151aa5;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -2674,8 +2674,8 @@ fieldset:disabled .btn {
 .btn-secondary:disabled,
 .btn-secondary.disabled {
   color: #fff;
-  background-color: #4d65f9;
-  border-color: #4d65f9;
+  background-color: #151aa5;
+  border-color: #151aa5;
 }
 .btn-success {
   color: #fff;
@@ -2946,13 +2946,13 @@ fieldset:disabled .btn {
   background-color: rgba(0, 0, 0, 0);
 }
 .btn-outline-secondary {
-  color: #4d65f9;
-  border-color: #4d65f9;
+  color: #151aa5;
+  border-color: #151aa5;
 }
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #4d65f9;
-  border-color: #4d65f9;
+  background-color: #151aa5;
+  border-color: #151aa5;
 }
 .btn-check:focus + .btn-outline-secondary,
 .btn-outline-secondary:focus {
@@ -2964,8 +2964,8 @@ fieldset:disabled .btn {
 .btn-outline-secondary.active,
 .btn-outline-secondary.dropdown-toggle.show {
   color: #fff;
-  background-color: #4d65f9;
-  border-color: #4d65f9;
+  background-color: #151aa5;
+  border-color: #151aa5;
 }
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus,
@@ -2976,7 +2976,7 @@ fieldset:disabled .btn {
 }
 .btn-outline-secondary:disabled,
 .btn-outline-secondary.disabled {
-  color: #4d65f9;
+  color: #151aa5;
   background-color: rgba(0, 0, 0, 0);
 }
 .btn-outline-success {
@@ -5769,7 +5769,7 @@ fieldset:disabled .btn {
   color: #ff6d99;
 }
 .link-secondary {
-  color: #4d65f9;
+  color: #151aa5;
 }
 .link-secondary:hover,
 .link-secondary:focus {
@@ -6100,7 +6100,7 @@ fieldset:disabled .btn {
   border-color: #ff4880 !important;
 }
 .border-secondary {
-  border-color: #4d65f9 !important;
+  border-color: #151aa5 !important;
 }
 .border-success {
   border-color: #198754 !important;
@@ -6842,7 +6842,7 @@ fieldset:disabled .btn {
   color: #ff4880 !important;
 }
 .text-secondary {
-  color: #4d65f9 !important;
+  color: #151aa5 !important;
 }
 .text-success {
   color: #198754 !important;
@@ -6884,7 +6884,7 @@ fieldset:disabled .btn {
   background-color: #ff4880 !important;
 }
 .bg-secondary {
-  background-color: #4d65f9 !important;
+  background-color: #151aa5 !important;
 }
 .bg-success {
   background-color: #198754 !important;
